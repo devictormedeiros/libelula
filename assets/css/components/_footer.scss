@@ -1,0 +1,144 @@
+footer {
+  background-color: $inst-primary-700;
+  padding: 120px 0;
+  margin-top: 120px;
+  @media (max-width: 1400px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 768px) {
+    padding: 64px 37px;
+    .container{
+      padding: 0;
+    }
+    
+  }
+  .row-text-footer {
+    margin-top: 48px;
+  }
+  @media (max-width: 768px) {
+    .accordion-items {
+      display: none;
+    }
+    .row-text-footer {
+      margin-top: 48px;
+    }
+  }
+  h3{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 8px;
+  padding-right: 20px;
+    @media screen and (max-width: 768px) {
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/arrow-down.png);
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: center;
+        transition: all 0.5s ease-in-out;
+        display: block;
+        margin: auto;
+      }
+      &.active{
+        &:after{
+          transform: rotate(180deg);
+        }
+      }
+    }
+      
+    
+  }
+  ul {
+    margin-top: 2rem;
+    list-style: none;
+    @media (max-width: 768px) {
+      margin-bottom: 32px;
+    }
+    li {
+      a {
+        @extend .text-hover-secondary;
+        @extend .font-subtitle-lg;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      &:last-child {
+        a {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    margin-top: 68px;
+    @media (max-width: 768px) {
+      img{
+        margin: 30px auto 0;
+      }
+    }
+    .logo-marcello-vanzillotta{
+      display: inline-block;
+      margin-left: auto;
+      &:hover{
+        svg,svg *{
+          fill: $inst-secondary-400;
+  
+        }
+      }
+      svg,svg *{
+        fill: $inst-secondary-600;
+
+      }
+    }
+  }
+  .footer-social {
+    gap: 83px;
+
+    .redes-sociais {
+      max-width: 50%;
+      width: fit-content;
+      @include flex(inline-flex, center, center, wrap, 30px);
+      a {
+        font-size: 34px;
+        @include flex(flex, center, center, wrap, 0);
+        width: 34px;
+        height: 34px;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: $inst-secondary-100;
+        }
+      }
+      @media (max-width: 768px) {
+        margin-bottom: 60px;
+      }
+    }
+    .logo {
+      max-width: 50%;
+      width: fit-content;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+    @media (max-width: 1200px) {
+      gap: 50px;
+    }
+    @media (max-width: 768px) {
+      gap: 34px;
+      justify-content: center;
+      .redes-sociais {
+        max-width: 100%;
+        a {
+          width: 25px;
+          height: 25px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

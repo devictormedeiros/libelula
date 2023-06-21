@@ -1,0 +1,412 @@
+a[x-apple-data-detectors] {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: $font-family-base;
+    top: 0 !important;
+  }
+  
+  input,
+  a,
+  button,
+  textarea {
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+  
+  /* CSS Reset */
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+    li{
+      &:before{
+        display: none;
+      }
+    }
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: $tamanho-fonte-p;
+    font-family: $font-secondary;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: $tamanho-h1;
+  }
+  
+  h2 {
+    font-size: $tamanho-h2;
+  }
+  
+  h3 {
+    font-size: $tamanho-h3;
+  }
+  
+  h4 {
+    font-size: $tamanho-h4;
+  }
+  
+  h5 {
+    font-size: $tamanho-h5;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-family: $font-secondary;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  input,textarea,select,form{
+    font-family: $font-secondary;
+  }
+  
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  // Seções
+  ::-webkit-input-placeholder,
+  select,
+  input {
+    /* Edge */
+    font-size: 1rem;
+  }
+  
+  :-ms-input-placeholder,
+  select,
+  input {
+    /* Internet Explorer 10-11 */
+    font-size: 1rem;
+  }
+  
+  ::placeholder,
+  select,
+  input {
+    font-size: 1rem;
+  }
+
+  .btn-contato{
+    display: inline-block;
+    padding: 8px 20px;
+    width: fit-content;
+    margin-top: 20px;
+    border-radius: 22px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    color:#fff;
+    border:none;
+    font-weight: 500;
+    font-family: $font-secondary;
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+div#google_translate_element2 {
+  display: none;
+}
+.skiptranslate {
+    display: none;
+}
+.slider-galeria{
+  
+  figure{
+    img{
+        border-radius: 10px;
+        width: 100%;
+        object-fit: cover;
+        height: 380px;
+    }
+}
+  ul.slick-dots{
+      @include flex(flex, center, center, wrap, 10px);
+      li{
+          button{
+              width: 15px;
+              height: 15px;
+             border: 2px solid $primary-color;
+             background-color: transparent;
+              border-radius: 100%;
+              font-size: 0;
+          }
+          &.slick-active{
+              button{
+                  background-color: $primary-color;
+              }
+          }
+      }
+  }
+}
+
+
+
+
+.text-hover-secondary,.text-hover-secondary i{
+  color: $inst-secondary-400 !important;
+  &:hover{
+    color: $inst-secondary-200 !important;
+  }
+}
+.bg-hover-secondary, .bg-hover-secondary i{
+  background-color: $inst-secondary-400  !important;
+  &:hover{
+    background-color: $inst-secondary-200 !important;
+  }
+}
+
+.column-count-2{
+  column-count: 2;
+}
+
+@media (min-width:1200px) and (max-width: 1470px) {
+  .container{
+    max-width: 1150px;
+  }
+}
+
+
+
+
+@media (min-width: 1540px) {
+  .container{
+    max-width: 1368px;
+  }
+}
+
+body {
+  background-color: $inst-secondary-50;
+}
+
+
+.pagination{
+  margin-top: 40px;
+  ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    li{
+      span,a{
+        @extend .font-button-lg;
+        color: $primary-color;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid $primary-color;
+        border-radius: 4px;
+        &.current, &:hover{
+          background-color: $primary-color;
+          color: #fff;
+        }
+        @media (max-width: 768px) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

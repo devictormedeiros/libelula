@@ -1,0 +1,313 @@
+// FONTES
+$font-family-base: "Playfair Display", sans-serif;
+$font-secondary: "Noto Sans", sans-serif;
+$tamanho-fonte-p: 22.4px;
+$tamanho-h1: 48px;
+$tamanho-h2: 40px;
+$tamanho-h3: 32px;
+$tamanho-h4: 24px;
+$tamanho-h5: 19.2px;
+
+// FONTES
+/// Feed font font-styles
+.font-title-xx {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  @media screenn and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+}
+.font-title-xl {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+}
+.font-title-lg {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+}
+.font-title-md {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.01;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01;
+  }
+}
+.font-title-sm {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+  }
+}
+.font-title-xs {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+}
+.font-subtitle-xl {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+  }
+}
+.font-subtitle-lg {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+  }
+}
+
+.font-subtitle-md {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+  }
+}
+
+.font-excert {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.font-excert-bold {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.font-menu {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.font-testmonials {
+  font-family: $font-secondary;
+  font-style: italic  ; 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+}
+
+.font-testmonials-signature {
+  font-family: $font-family-base;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+  }
+}
+.font-button-lg {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  @media screen and (max-width: 768px) {
+  }
+}
+.font-button-md {
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  @media screen and (max-width: 768px) {
+  }
+}
+
+// Gradientes
+$gradient-gray-a: line-heightar-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0, 0, 0, 0) 100%
+);
+$gradient-gray-b: line-heightar-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.4) 0%,
+  rgba(0, 0, 0, 0.1) 100%,
+  rgba(0, 0, 0, 0.05) 100%
+);
+$gradient-gray-c: #bdbdbd;
+
+// Cores
+$primary-color: #4d324a;
+$secondary-color: #ffe0b2;
+
+$inst-primary-50: #f4eff4;
+$inst-primary-100: #d6c7d7;
+$inst-primary-200: #b79fb9;
+$inst-primary-300: #765478;
+$inst-primary-400: #5f3f61;
+$inst-primary-500: #4a324c;
+$inst-primary-600: #462d48;
+$inst-primary-700: #3c293d;
+$inst-primary-800: #29152a;
+$inst-primary-900: #1e0f1f;
+
+$inst-secondary-50: #fff6eb;
+$inst-secondary-100: #fff2e0;
+$inst-secondary-200: #ffedd1;
+$inst-secondary-300: #ffeccc;
+$inst-secondary-400: #ffdea5;
+$inst-secondary-500: #d9bc93;
+$inst-secondary-600: #d9b785;
+$inst-secondary-700: #b18762;
+$inst-secondary-800: #7d4f3d;
+$inst-secondary-900: #613b2c;
+
+$inst-gradient-secondary-a: line-heightar-gradient(
+  98.16deg,
+  #fff2db 0%,
+  #ffedd1 100%
+);
+$inst-gradient-secondary-b: line-heightar-gradient(
+  180deg,
+  rgba(255, 246, 235, 0) 75.88%,
+  #fff6eb 100%
+);
+
+// Definir mixins
+@mixin default-font($family, $font-weight, $font-size, $line-height) {
+  font-font-family: $family;
+  font-font-weight: $font-weight;
+  font-font-size: $font-size;
+  line-height-height: $line-height;
+}
+
+@mixin flex($display, $align, $justify, $wrap, $gap) {
+  display: $display;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+  gap: $gap;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+.color-primary-300 {
+  color: $inst-primary-300;
+}
+.color-secondary {
+  color: $secondary-color;
+}
+.text-secondary-400 {
+  color: $inst-secondary-400;
+}
+
